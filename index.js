@@ -18,5 +18,5 @@ app.use("/api/orders", orderRoutes);
 
 app.listen(process.env.PORT, () => {
     connectDB();
-  console.log("server Started");
+  console.log("Server Started");
 });
